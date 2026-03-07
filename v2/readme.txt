@@ -43,3 +43,7 @@ Crowd-funding raised so far: $1,910
 After trying to order the PCB we discovered that a 3 layer PCB with filled vias cost an extra ~$300 to manufacture. This requirement was due to the power management chip we were using which was in a BGA form factor. We switched PCB designers, chose a different chip and simplified the design so that it now costs $66 to manufacture and assemble incl components.
 The board has been manufactured and is being couriered now for testing.
 
+Update 7 Mar 2026:
+Current Telegram group members: 168
+Crowd-funding raised so far: $2,660
+Latest PCB board is working well! We have gotten these parts of the system working so far: Charging, battery power supply, HDMI out, speaker audio, headphone audio, microphone in, WIFI, cellphone (calls, SMS, 4G data), GPIO buttons, webcam. Have chosen a 5 inch touchscreen from Waveshare to incorporate. Booted into an Armbian image for Ubuntu and Phosh immediately worked perfectly to create a phone-like experience. Busy working on the spec for the next PCB board iteration: incorporating screen and upgrading OrangePi CM4 to OrangePi CM5 (with compatible pins for Raspberry Pi CM5). Still to figure out: How to make one GPIO button perform the sleep and wake commands, how to pipe through battery levels into the OS, how to setup GPS.
